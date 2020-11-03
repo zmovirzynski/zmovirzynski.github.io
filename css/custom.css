@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.primary-color{
+    color: #468499 ;
+}
+
+.primary-section,
+.second-section {
+    min-height: 100vh;
+}
+
+.primary-section h1{
+ font-size: 80px;
+ margin: 2rem 0 0rem 0;
+}
+.primary-section a{
+    font-size: 20px;
+}
+
+.social-media a {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.social-media i:hover  {
+   background-color:  #468499;
+  
+}
+
+.icon-media ul li { 
+    display: inline; 
+}
+.icon-media li{
+    margin-right: 35px;
+    padding-top: 33px;
+}
+.icon-media i{
+    color: #468499;
+}
+
+
+
+h4, h5, h6 {
+    text-transform: uppercase;  
+}
+h3 {
+    margin: 5.4rem 0 1.168rem 0;
+}
+h4 {
+    margin: 2rem 0 0rem 0;
+}
+h5 {
+    margin: 0rem 0 1rem 0;
+}
+
+.sidenav .user-view .circle {
+    height: 130px;
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidenav .user-view {
+    padding: 55px 32px 55px;
+}
+
+img {
+    border: 4px solid white;
+}
+
+aside span{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-block-start: 1.33em;
+    margin: 2rem 0 0 0; 
+    display: block;
+    color: #468499;
+    font-size: 17px;
+    text-align: right;
+}
+
+@media(max-width: 1000px){
+    aside span{
+        text-align: left;
+    }
+}
+
+.material-icons {
+	background-color: #468499;
+}
+   
+.sidenav li>a {
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sidenav .user-view,
+.sidenav {
+    background-color: #468499 ;
+}
+
+.card .card-title {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    
+}
+.card a, p{
+    font-size: 17px;
+}
+.card img {
+     border: 1px solid white; 
+   
+}
+.card li{
+    font-size: 16px;
+}
+.card-title i:hover{
+    background-color: #468499 ;
+    color: white;
+}
+.card .card-content{
+    background-color: #468499  ;
+    border: 1px solid white; 
+}
+
+.main {
+    padding-left: 300px;
+}
+  
+ @media only screen and (max-width : 992px) {
+        .main {
+        padding-left: 0;
+        }
+    }
+  
+@media only screen and (min-width: 993px){
+    .container {
+        width: 90%;
+    }
+}
