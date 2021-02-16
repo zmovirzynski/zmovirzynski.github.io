@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
 body{
     font-family: 'Bebas Neue', cursive;
 }
@@ -35,11 +52,11 @@ p{
 
 .social-media i:hover  {
    background-color:  #468499;
-  
+
 }
 
-.icon-media ul li { 
-    display: inline; 
+.icon-media ul li {
+    display: inline;
 }
 .icon-media li{
     margin-right: 35px;
@@ -52,7 +69,7 @@ p{
 
 
 h4, h5, h6 {
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 h3 {
     margin: 5.4rem 0 1.168rem 0;
@@ -83,7 +100,7 @@ img {
 aside span{
     font-family: 'Roboto Condensed', sans-serif;
     margin-block-start: 1.33em;
-    margin: 2rem 0 0 0; 
+    margin: 2rem 0 0 0;
     display: block;
     color: #468499;
     font-size: 17px;
@@ -99,7 +116,7 @@ aside span{
 .material-icons {
 	background-color: #468499;
 }
-   
+
 .sidenav li>a {
     text-transform: uppercase;
     text-align: left;
@@ -117,14 +134,14 @@ aside span{
     font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    
+
 }
 .card a, p{
     font-size: 17px;
 }
 .card img {
-     border: 1px solid white; 
-   
+     border: 1px solid white;
+
 }
 .card li{
     font-size: 16px;
@@ -135,19 +152,19 @@ aside span{
 }
 .card .card-content{
     background-color: #468499  ;
-    border: 1px solid white; 
+    border: 1px solid white;
 }
 
 .main {
     padding-left: 300px;
 }
-  
+
  @media only screen and (max-width : 992px) {
         .main {
         padding-left: 0;
         }
     }
-  
+
 @media only screen and (min-width: 993px){
     .container {
         width: 90%;
